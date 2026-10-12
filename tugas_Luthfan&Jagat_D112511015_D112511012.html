@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTI - Himpunan Mahasiswa Teknik Informatika</title>
+</head>
+<body>
+
+    <h1 align="center">HMTI - Himpunan Mahasiswa Teknik Informatika</h1>
+
+    <p>
+        HMTI merupakan wadah mahasiswa Teknik Informatika
+        untuk mengembangkan kreativitas, keterampilan, dan kerja sama
+        melalui berbagai kegiatan yang menarik dan bermanfaat.
+    </p>
+
+    <hr>
+
+    <h2>Pencarian Kegiatan</h2>
+
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Cari Kegiatan</legend>
+
+            <input
+                type="text"
+                name="cari"
+                placeholder="Cari kegiatan..."
+            >
+
+            <button type="submit">Cari</button>
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h2>Jadwal Kegiatan Bulan Depan</h2>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Tanggal</th>
+                <th>Nama Kegiatan</th>
+                <th>Lokasi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>5 November 2026</td>
+                <td>Pelatihan Coding</td>
+                <td>Lab Komputer</td>
+            </tr>
+
+            <tr>
+                <td>12 November 2026</td>
+                <td>HMTI Galang Dana</td>
+                <td>Aula Kampus</td>
+            </tr>
+
+            <tr>
+                <td>20 November 2026</td>
+                <td>HMTI Literasi</td>
+                <td>Sekre</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    Catatan: Jadwal dapat berubah sewaktu-waktu
+                    sesuai kondisi dan kebijakan panitia.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Pendaftaran Anggota Baru</h2>
+
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Formulir Pendaftaran HMTI</legend>
+
+            <p>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama lengkap"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Masukkan Email"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="password">Kata Sandi:</label><br>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Masukkan password"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="divisi">Divisi Minat:</label><br>
+                <select id="divisi" name="divisi">
+                    <option value="Internal">Internal</option>
+                    <option value="eksternal">Eksternal</option>
+                    <option value="Minbak">Minbak</option>
+                    <option value="Sosma">Sosma</option>
+                    <option value="KWU">KWU</option>
+                    <option value="Infokom">Infokom</option>
+                </select>
+            </p>
+
+            <details>
+                <summary>Informasi dan Ketentuan Pendaftaran</summary>
+                <p>
+                    Calon staff muda diharapkan mengisi data dengan benar,
+                    memilih divisi sesuai minat, serta bersedia mengikuti
+                    kegiatan HMTI yang telah ditentukan.
+                </p>
+            </details>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="persetujuan"
+                    name="persetujuan"
+                    value="setuju"
+                    required
+                >
+                <label for="persetujuan">
+                    Saya menyetujui ketentuan pendaftaran HMTI.
+                </label>
+            </p>
+
+            <button type="submit">Daftar Sekarang</button>
+        </fieldset>
+    </form>
+
+    <hr>
+
+   
+<p>&copy; 2026 HMTI - Himpunan Mahasiswa Teknik Informatika</p>
+</p>
+</body>
+</html>
